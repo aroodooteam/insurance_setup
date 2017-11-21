@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+  <!-- QWEB Templates for UI Widgets and views -->
+
+  <!--
+
+  <t t-name="insurance_setupView">
+    <div class="oe_insurance_setup_view">
+      <div class="oe_insurance_setup_buttons"/>>
+      <table class="oe_insurance_setup_groups">
+        <tr class="oe_insurance_setup_groups_headers">
+          <td class="oe_insurance_setup_dummy_cell"><div/></td>
+        </tr>
+        <tr class="oe_insurance_setup_dummy_row">
+        </tr>
+      </table>
+    </div>
+  </t>
+
+  -->
+
+</templates>
