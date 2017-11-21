@@ -1,27 +1,16 @@
 # -*- coding: utf-8 -*-
 
 {
-    "name": "insurance_setup",
+    "name": "Insurance Setup",
     "version": "0.1",
-    "author": "aroodoo_asus_hary",
-    "category": "Tools",
+    "author": "Haritiana Rakotomalala <hmrakotomalala@aro.mg>",
+    "category": "Insurances",
     "complexity": "normal",
     "data": [
-        # "data/templates.xml", # un comment to enable js, css code
-        # "security/security.xml",
-        # "security/ir.model.access.csv",
-        # "views/view.xml",
-        # "actions/act_window.xml",
-        # "menu.xml",
-        # "data/data.xml",
+        "views/res_config_view.xml",
     ],
     "depends": [
         "base",
-    ],
-    "qweb": [
-        # "static/src/xml/*.xml",
-    ],
-    "test": [
     ],
     "installable": True,
     "auto_install": False,
