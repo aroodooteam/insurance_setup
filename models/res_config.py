@@ -33,10 +33,20 @@ class InsuranceManagementConfiguration(models.TransientModel):
         string='Manage insurance contract',
         help='Allows to define the insurance contract for your customer')
 
+    module_insurance_broker_management = fields.Boolean(
+        string='Manage insurance broker contract',
+        help='Allows to define the insurance contract broker')
+
     @api.onchange('module_insurance_management')
     def onchange_insurance_management(self):
         return {'value': {
             'module_account_analytic_analysis': self.module_insurance_management,
+        }}
+
+    @api.onchange('module_insurance_broker__management')
+    def onchange_insurance_broker_management(self):
+        return {'value': {
+            'module_account_analytic_analysis': self.module_insurance_broker_management,
         }}
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

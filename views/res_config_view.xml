@@ -22,6 +22,10 @@
                                     <field name="module_insurance_management"/>
                                     <label for="module_insurance_management"/>
                                 </div>
+                                <div name="module_insurance_broker_management" class="oe_inline">
+                                    <field name="module_insurance_broker_management"/>
+                                    <label for="module_insurance_broker_management"/>
+                                </div>
                             </div>
                         </group>
                     </div>
