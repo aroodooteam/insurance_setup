@@ -40,13 +40,13 @@ class InsuranceManagementConfiguration(models.TransientModel):
     @api.onchange('module_insurance_management')
     def onchange_insurance_management(self):
         return {'value': {
-            'module_account_analytic_analysis': self.module_insurance_management,
+            'module_insurance_management': self.module_insurance_management,
         }}
 
     @api.onchange('module_insurance_broker__management')
     def onchange_insurance_broker_management(self):
         return {'value': {
-            'module_account_analytic_analysis': self.module_insurance_broker_management,
+            'module_insurance_broker_management': self.module_insurance_broker_management,
         }}
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
